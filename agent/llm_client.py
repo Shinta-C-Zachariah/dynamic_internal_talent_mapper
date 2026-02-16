@@ -11,7 +11,7 @@ def call_ollama(prompt: str) -> str:
         "stream": False
     }
 
-    response = requests.post(OLLAMA_URL, json=payload, timeout=180)
+    response = requests.post(OLLAMA_URL, json=payload, timeout=600)
     response.raise_for_status()
 
     return response.json()["response"]
