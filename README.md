@@ -34,3 +34,20 @@ In another terminal:
 ```bash
 docker exec -it ollama_server ollama pull llama3
 ```
+
+
+## Use other models:
+### Step 1: Update the docker compose file:
+MODEL_NAME=<model name> supporting models: mistral, phi3
+
+### Step 2: Pull Ollama model (first time only)
+```bash
+docker exec -it ollama_server ollama pull <model name>
+```
+
+### Step 3: Build & Start containers
+```bash
+docker-compose down
+docker-compose up --build
+```
+
