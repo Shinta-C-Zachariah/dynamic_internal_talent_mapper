@@ -1,0 +1,4 @@
+project_id,project_name,description,required_skills,good_to_have_skills,domain,priority,location
+P001,Embedded QA Automation,Need QA engineer to automate validation for embedded devices. Must create automation scripts and integrate with CI pipeline.,"Python, Embedded Testing, Linux","Jenkins, Bash, Docker",Embedded QA,High,Bangalore
+P002,DevOps Pipeline Modernization,Migrate Jenkins pipelines to GitLab CI/CD and implement Docker based deployment.,"GitLab CI/CD, Docker, Jenkins","Kubernetes, Terraform",DevOps,High,Bangalore
+P003,Backend Microservice Enhancement,Enhance Spring Boot microservice APIs and deploy in AWS cloud.,"Java, Spring Boot, AWS","Docker, Kubernetes",Backend,Medium,Hyderabad

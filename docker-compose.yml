@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama_server
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  talent-mapper:
+    build: .
+    container_name: talent_mapper_app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - ollama
+    environment:
+      - OLLAMA_URL=http://ollama:11434/api/generate
+      - MODEL_NAME=llama3
+    volumes:
+      - ./data:/app/data
+      - ./db:/app/db
+    restart: always
+
+volumes:
+  ollama_data:

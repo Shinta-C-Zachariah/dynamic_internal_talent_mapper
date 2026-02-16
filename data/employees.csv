@@ -1,0 +1,6 @@
+emp_id,name,role,location,experience_years,skills,projects_summary,availability
+E001,Shinta C Zachariah,Senior Software Engineer,Bangalore,5,"Python, PyTest, Jenkins, Docker, GitLab CI/CD, QA Automation","Built CI/CD pipelines, automated test execution using PyTest, Dockerized applications, maintained Jenkins jobs.",Available
+E002,Arun Kumar,QA Engineer,Chennai,4,"C, Embedded Testing, Linux, Python, Bash, Robot Framework","Worked on embedded device validation, automation scripting in Python and Bash.",Available
+E003,Meera Nair,Backend Engineer,Hyderabad,6,"Java, Spring Boot, Microservices, AWS, Docker, Kubernetes","Developed scalable backend microservices, deployed on AWS with Kubernetes.",Busy
+E004,Rahul Das,DevOps Engineer,Bangalore,7,"Terraform, AWS, Kubernetes, Jenkins, Python, Docker","Built cloud infra automation, Kubernetes deployment pipelines, monitoring setup.",Available
+E005,Ayesha Khan,Data Engineer,Pune,5,"Python, SQL, Airflow, ETL, Spark, AWS","Built ETL pipelines, automated workflows using Airflow and Spark.",Available
