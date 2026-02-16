@@ -2,6 +2,8 @@
 
 echo "🚀 Starting Dynamic Internal Talent Mapper..."
 
+export PYTHONPATH=/app
+
 echo "📌 Step 1: Build vector DB"
 python3 scripts/build_vector_db.py
 

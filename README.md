@@ -22,8 +22,15 @@ This project matches internal employees to live project demands using **Agentic 
 
 ---
 
-## 📌 Prerequisites
-Install Ollama:
+## 🚀 Run with Docker (Recommended)
 
+### Step 1: Build & Start containers
 ```bash
-curl -fsSL https://ollama.com/install.sh | sh
+docker-compose up --build
+```
+
+### Step 2: Pull Ollama model (first time only)
+In another terminal:
+```bash
+docker exec -it ollama_server ollama pull llama3
+```
